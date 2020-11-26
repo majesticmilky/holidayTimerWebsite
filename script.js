@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const holiday = "25 Dec 2020";
+const holiday = "24 Dec 2020";
 
 function countdown() {
     const holidayDate = new Date(holiday);
